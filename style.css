@@ -1,29 +1,49 @@
-/* Write Your CSS Below 
-Colors: 
-- rgb(243, 183, 106)
-- yellow
-- rgb(241, 117, 0)
-- red
-- #f3b76a
-- #f17500
-- #0d6e00
-- #6d00fb
-- #dbff39
-- #74c9f1
-- #fb4040
+h1{
+    border-style: inset;
+    border-radius: 10px;
+    height: 30px;
+    width: 500px;
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+    background-image: linear-gradient(blue, purple);
+    color: rgb(241, 117, 0);
+    text-shadow: 2px 5px #000000;
+    
+}
 
-Sizes: 
-- 100%
-- 70%
-- auto
-- 1.5em
-- 3rem
-- .5em
+body{
+    background-color: black;
+    background-image: url(court.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
-Font: 
-- Copperplate (You can also use any font that you'd like!)
 
-Images: 
-- "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
-    - (You may use any image you would like for the background!)
-*/
+#jordans-1-desc{
+    background-color: #83a2db;
+    border-style: groove;
+    border-radius: 3px;
+    width: 580px;
+    padding: 5px;
+    margin: 5px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#row1-section1{
+    opacity: 1.0;
+}
+
+#jordans-2-desc{
+    background-color: #fb4040;
+    border-style: groove;
+    border-radius: 3px;
+    width: 600px;
+    padding: 5px;
+    margin: 5px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
